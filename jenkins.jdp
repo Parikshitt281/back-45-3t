@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('pull'){
             steps{
-                 git branch: 'main', url: 'https://github.com/Parikshitt281/mybackend-3t.git'
+                 git branch: 'main', url: 'https://github.com/Parikshitt281/back-45-3t.git'
             } 
         }
         stage('build'){
